@@ -1,0 +1,9 @@
+[
+  { "id": "buy", "label": "Buy a home", "icon": "🏠" },
+  { "id": "renovate", "label": "Renovate / refurbish", "icon": "🔨" },
+  { "id": "retrofit", "label": "Retrofit / insulation / BER upgrade", "icon": "🏗️" },
+  { "id": "solar", "label": "Solar panels", "icon": "☀️" },
+  { "id": "heat-pump", "label": "Heat pump", "icon": "🌡️" },
+  { "id": "windows-doors", "label": "Windows & doors", "icon": "🚪" },
+  { "id": "vacant", "label": "Vacant or derelict property", "icon": "🏚️" }
+]
