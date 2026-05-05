@@ -18,7 +18,7 @@
     "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/better-energy-homes-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["energy", "retrofit", "SEAI", "insulation"]
   },
   {
@@ -40,7 +40,7 @@
     "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/one-stop-shop/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/better-energy-homes-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["energy", "retrofit", "SEAI", "managed service"]
   },
   {
@@ -63,7 +63,7 @@
     "applicationUrl": "https://www.revenue.ie/en/property/help-to-buy-incentive/index.aspx",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/owning-a-home/help-with-buying-a-home/help-to-buy-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["first-time buyer", "new build", "tax rebate", "Revenue"]
   },
   {
@@ -86,7 +86,7 @@
     "applicationUrl": "https://www.firsthomescheme.ie/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/owning-a-home/help-with-buying-a-home/first-home-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["first-time buyer", "new build", "shared equity", "mortgage"]
   },
   {
@@ -106,34 +106,33 @@
       "Application made to your local authority",
       "Funding released in stages as work is completed"
     ],
-    "applicationUrl": "https://www.gov.ie/en/service/f4f9a-vacant-property-refurbishment-grant/",
+    "applicationUrl": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/services/vacant-property-refurbishment-grant/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/local-authority-housing-grants-and-supports/vacant-property-refurbishment-grant/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["vacant", "derelict", "renovation", "local authority"]
   },
   {
-    "id": "croi-conaithе-cities",
+    "id": "croi-conaithe-cities",
     "name": "Croí Cónaithe (Cities) Scheme",
     "provider": "Department of Housing",
-    "category": ["buy", "renovate", "vacant"],
+    "category": ["buy"],
     "eligibleBuyerType": ["first-time-buyer", "second-time-buyer"],
-    "eligiblePropertyType": ["vacant", "second-hand"],
-    "maxValue": 50000,
-    "valueSummary": "Up to €50,000 to refurbish a vacant property in a city for use as your home",
-    "description": "Supports buyers who purchase and refurbish vacant properties in cities (Dublin, Cork, Limerick, Galway, Waterford) to use as their primary residence. Delivered via local authorities.",
+    "eligiblePropertyType": ["new-build"],
+    "maxValue": 0,
+    "valueSummary": "Indirect benefit — government subsidises developers to make city apartments viable for owner-occupiers",
+    "description": "A €450m government scheme that pays subsidies to apartment developers in Dublin, Cork, Limerick, Galway and Waterford to bridge the construction viability gap. The grant goes to the developer, not to you — but the result is more apartments available to buy at viable prices in cities. As of mid-2025, contracts were signed for over 1,000 apartments with more in progress.",
     "keyRequirements": [
-      "Property must be located within a designated city area",
-      "Property must be vacant and in need of refurbishment",
-      "Must be used as your principal private residence",
-      "Grant paid on completion of works",
-      "Must apply through your local authority"
+      "No direct application for individual buyers — the scheme operates at developer level",
+      "Apartments built under this scheme are for owner-occupiers, not investors",
+      "Located in Dublin, Cork, Limerick, Galway or Waterford city areas",
+      "Check with individual developers or agents whether a specific new apartment scheme received Croí Cónaithe funding"
     ],
-    "applicationUrl": "https://www.gov.ie/en/publication/f6793-croi-conaithе-cities-scheme/",
-    "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/local-authority-housing-grants-and-supports/croi-conaithе-cities-scheme/",
+    "applicationUrl": "https://www.gov.ie/en/publication/883b1-croi-conaithe-cities-scheme/",
+    "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/local-authority-housing-grants-and-supports/croi-conaithe-cities-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
-    "tags": ["vacant", "cities", "renovation", "urban"]
+    "lastVerified": "2026-05-01",
+    "tags": ["cities", "apartments", "new build", "urban"]
   },
   {
     "id": "warm-homes-scheme",
@@ -144,17 +143,18 @@
     "eligiblePropertyType": ["second-hand", "vacant"],
     "maxValue": 0,
     "valueSummary": "Free — fully funded energy upgrades for eligible low-income households",
-    "description": "Provides free energy upgrades (insulation, heating systems) to homeowners who receive certain social welfare payments. SEAI manages the programme and assigns an approved contractor at no cost to you.",
+    "description": "Provides free energy upgrades to homeowners who receive certain social welfare payments. SEAI manages the programme and assigns an approved contractor at no cost to you. As of January 2025, fossil fuel boilers (oil/gas) are no longer covered — the scheme now focuses on insulation and renewable heating (heat pumps).",
     "keyRequirements": [
       "Must be a homeowner receiving a qualifying social welfare payment (e.g. Fuel Allowance, Living Alone Allowance)",
       "Home must be in need of energy upgrades",
       "Works are fully funded — no contribution required from homeowner",
-      "SEAI assigns contractor — you do not need to find one"
+      "SEAI assigns contractor — you do not need to find one",
+      "Fossil fuel boiler replacements are no longer covered (renewable heating only since Jan 2025)"
     ],
     "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/better-energy-warmer-homes-scheme/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/warmer-homes-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["free", "low-income", "insulation", "SEAI", "social welfare"]
   },
   {
@@ -164,8 +164,8 @@
     "category": ["solar"],
     "eligibleBuyerType": ["existing-homeowner"],
     "eligiblePropertyType": ["second-hand", "vacant", "new-build"],
-    "maxValue": 2400,
-    "valueSummary": "Up to €2,400 depending on system size (€800 per kWp, max 3 kWp)",
+    "maxValue": 1800,
+    "valueSummary": "Up to €1,800 depending on system size (€600 per kWp, max 3 kWp)",
     "description": "A grant towards the cost of installing solar photovoltaic (PV) panels on your home to generate your own electricity. Any surplus can be exported to the grid under the Microgeneration Support Scheme.",
     "keyRequirements": [
       "Home must have been built before 2021",
@@ -176,7 +176,7 @@
     "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/solar-electricity-grant/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/solar-energy-grant/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["solar", "PV", "energy", "SEAI", "microgeneration"]
   },
   {
@@ -186,20 +186,21 @@
     "category": ["heat-pump"],
     "eligibleBuyerType": ["existing-homeowner"],
     "eligiblePropertyType": ["second-hand", "vacant"],
-    "maxValue": 6500,
-    "valueSummary": "Up to €6,500 depending on the type of heat pump installed",
-    "description": "A grant to replace your existing heating system with a heat pump (air-to-water, ground source, or exhaust air). Heat pumps are highly efficient and can significantly reduce heating bills.",
+    "maxValue": 12500,
+    "valueSummary": "Up to €12,500 — €6,500 for the heat pump, €2,000 for heating upgrades, plus €4,000 renewable heat bonus if replacing a fossil fuel system (increased February 2026)",
+    "description": "A grant to replace your existing heating system with a heat pump (air-to-water, ground source, or exhaust air). The grant nearly doubled in February 2026 and now includes a bonus for replacing oil or gas boilers. Heat pumps are highly efficient and can significantly reduce heating bills.",
     "keyRequirements": [
       "Home must have been built and occupied before 2021",
       "A technical assessment is required before installation",
       "Home must meet minimum insulation standard (or insulation must be upgraded first)",
       "Must use an SEAI-registered contractor",
-      "Works must not have started before grant approval"
+      "Works must not have started before grant approval",
+      "€4,000 renewable heat bonus applies when replacing an existing fossil fuel (oil/gas) system"
     ],
     "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/heat-pump-grant/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/heat-pump-grant/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["heat pump", "heating", "SEAI", "energy"]
   },
   {
@@ -209,19 +210,20 @@
     "category": ["windows-doors"],
     "eligibleBuyerType": ["existing-homeowner"],
     "eligiblePropertyType": ["second-hand", "vacant"],
-    "maxValue": 1800,
-    "valueSummary": "Up to €1,800 — €1,500 for windows, €300 per external door (max 2 doors)",
-    "description": "A grant towards the cost of upgrading windows and external doors to improve the energy efficiency of your home. Part of the SEAI Better Energy Homes scheme.",
+    "maxValue": 5600,
+    "valueSummary": "Up to €5,600 — up to €4,000 for windows, plus €800 per external door (max 2 doors). Significantly increased March 2026.",
+    "description": "A grant towards the cost of upgrading windows and external doors to improve the energy efficiency of your home. Grant values were significantly increased in March 2026 — nearly tripling the previous window allowance.",
     "keyRequirements": [
       "Home must have been built and occupied before 2011",
       "Must use an SEAI-registered contractor",
       "New windows must meet minimum U-value standard",
+      "Home must have adequate attic and wall insulation already in place",
       "Works must not have started before grant approval"
     ],
-    "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/windows-doors-grant/",
+    "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/individual-grants/windows-and-doors",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/better-energy-homes-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["windows", "doors", "energy", "SEAI"]
   },
   {
@@ -244,7 +246,7 @@
     "applicationUrl": "https://localauthorityhomeloan.ie/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/owning-a-home/help-with-buying-a-home/local-authority-mortgages/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["mortgage", "first-time buyer", "local authority", "low rate"]
   },
   {
@@ -264,10 +266,80 @@
       "Income limits apply (same as Local Authority Home Loan)",
       "Works must be approved as part of the application"
     ],
-    "applicationUrl": "https://www.gov.ie/en/service/local-authority-purchase-and-renovation-loan/",
+    "applicationUrl": "https://localauthorityhomeloan.ie/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/owning-a-home/help-with-buying-a-home/local-authority-purchase-and-renovation-loan/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["mortgage", "renovation", "vacant", "derelict", "local authority"]
+  },
+  {
+    "id": "mortgage-interest-relief",
+    "name": "Mortgage Interest Relief",
+    "provider": "Revenue Commissioners",
+    "category": ["buy"],
+    "eligibleBuyerType": ["existing-homeowner"],
+    "eligiblePropertyType": [],
+    "maxValue": 1250,
+    "valueSummary": "Up to €1,250 (single) or €2,500 (jointly assessed) per tax year — 20% of your interest increase vs 2022",
+    "description": "A temporary tax relief for homeowners whose mortgage interest payments rose above their 2022 level. You claim 20% of the increase back through your annual tax return. Introduced in Budget 2024 and extended in Budget 2025 to cover the 2024 tax year.",
+    "keyRequirements": [
+      "Mortgage must have been on your principal private residence on 31 December 2022",
+      "Mortgage balance must have been between €80,000 and €500,000 at end of 2022",
+      "Relief is 20% of the increase in interest paid versus 2022 — you must have paid more interest",
+      "Claim via your annual tax return or through myAccount on Revenue.ie",
+      "Covers tax years 2023 and 2024"
+    ],
+    "applicationUrl": "https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/property/mortgage-interest-relief/index.aspx",
+    "moreInfoUrl": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/mortgage-interest-tax-relief/",
+    "isActive": true,
+    "lastVerified": "2026-05-01",
+    "tags": ["mortgage", "tax relief", "Revenue", "interest"]
+  },
+  {
+    "id": "seai-sustainable-energy-communities",
+    "name": "Sustainable Energy Communities",
+    "provider": "SEAI",
+    "category": ["retrofit", "insulation", "solar", "heat-pump"],
+    "eligibleBuyerType": ["existing-homeowner"],
+    "eligiblePropertyType": ["second-hand", "vacant"],
+    "maxValue": 0,
+    "valueSummary": "Free programme — SEAI funds community energy planning and gives members collective buying power for upgrades",
+    "description": "A community-based programme where groups of homes, businesses and public buildings plan and deliver energy improvements together. SEAI funds the community group's planning and coordination costs. Individual members still apply for their own SEAI home energy grants but benefit from bulk pricing and shared project management. Over 600 active communities across Ireland.",
+    "keyRequirements": [
+      "Join or form a Sustainable Energy Community group registered with SEAI",
+      "Community group must include at least one residential and one community or public building",
+      "SEAI provides grant funding to the group for coordination and project development",
+      "Individual homeowners apply separately for their own SEAI home energy grants",
+      "Search for a community near you at seai.ie/community-energy"
+    ],
+    "applicationUrl": "https://www.seai.ie/community-energy/sustainable-energy-communities/",
+    "moreInfoUrl": "https://www.seai.ie/community-energy/sustainable-energy-communities/",
+    "isActive": true,
+    "lastVerified": "2026-05-01",
+    "tags": ["community", "SEAI", "energy", "retrofit", "collective"]
+  },
+  {
+    "id": "housing-adaptation-grant",
+    "name": "Housing Adaptation Grant",
+    "provider": "Local Authorities",
+    "category": ["renovate"],
+    "eligibleBuyerType": ["existing-homeowner"],
+    "eligiblePropertyType": ["second-hand", "vacant"],
+    "maxValue": 30000,
+    "valueSummary": "Up to €30,000 (means tested) — typically covers 80–95% of approved costs",
+    "description": "A means-tested grant from your local council to adapt your home for a person with a disability or mobility issue. Covers works such as stairlifts, wet rooms, grab rails, access ramps, and structural adaptations. Available nationally but administered and funded by each local authority — availability and waiting times vary by county.",
+    "keyRequirements": [
+      "Applicant or a household member must have a disability or mobility issue",
+      "Property must be your principal private residence",
+      "Means tested — your household income determines the percentage covered",
+      "An occupational therapist assessment is usually required",
+      "Application made to your local authority — budgets and waiting lists vary by county",
+      "Works must not be started before the grant is approved"
+    ],
+    "applicationUrl": "https://www.gov.ie/en/service/4c50d3-housing-adaptation-grant-for-people-with-a-disability/",
+    "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/housing-adaptation-grant-for-people-with-disability/",
+    "isActive": true,
+    "lastVerified": "2026-05-01",
+    "tags": ["disability", "adaptation", "local authority", "means tested"]
   }
 ]

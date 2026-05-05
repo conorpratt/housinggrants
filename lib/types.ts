@@ -1,8 +1,7 @@
 export type BuyerType =
   | "first-time-buyer"
   | "second-time-buyer"
-  | "existing-homeowner"
-  | "landlord";
+  | "existing-homeowner";
 
 export type PropertyType = "new-build" | "second-hand" | "vacant" | "derelict";
 

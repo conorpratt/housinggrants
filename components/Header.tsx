@@ -8,7 +8,7 @@ export default function Header() {
           href="/"
           className="text-lg font-bold text-teal-700 tracking-tight"
         >
-          housinggrants.ie
+          Irish Housing Grants
         </Link>
         <nav className="flex items-center gap-1 sm:gap-2">
           <Link
