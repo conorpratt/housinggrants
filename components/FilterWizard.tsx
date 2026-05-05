@@ -34,6 +34,15 @@ const propertyTypes: { id: PropertyType; label: string; description: string; ico
   { id: "derelict", label: "Derelict property", description: "Run-down or uninhabitable", icon: "🪨" },
 ];
 
+const NON_BUY_INTENTS: GrantCategory[] = ["renovate", "retrofit", "insulation", "solar", "heat-pump", "windows-doors", "vacant"];
+
+function disabledPropertyTypes(intents: GrantCategory[]): Partial<Record<PropertyType, string>> {
+  if (intents.some((i) => NON_BUY_INTENTS.includes(i))) {
+    return { "new-build": "New builds don't qualify for renovation or energy grants" };
+  }
+  return {};
+}
+
 const TOTAL_STEPS = 3;
 
 export default function FilterWizard() {
@@ -50,12 +59,17 @@ export default function FilterWizard() {
   }
 
   function handleIntent(id: GrantCategory) {
-    setFilters((f) => ({
-      ...f,
-      intents: f.intents.includes(id)
+    setFilters((f) => {
+      const newIntents = f.intents.includes(id)
         ? f.intents.filter((i) => i !== id)
-        : [...f.intents, id],
-    }));
+        : [...f.intents, id];
+      const disabled = disabledPropertyTypes(newIntents);
+      return {
+        ...f,
+        intents: newIntents,
+        propertyType: disabled[f.propertyType as PropertyType] ? "" : f.propertyType,
+      };
+    });
   }
 
   function handlePropertyType(id: PropertyType) {
@@ -177,29 +191,38 @@ export default function FilterWizard() {
             Optional — skip if you&apos;re not sure yet.
           </p>
           <div className="space-y-3">
-            {propertyTypes.map((pt) => {
-              const selected = filters.propertyType === pt.id;
-              return (
-                <button
-                  key={pt.id}
-                  onClick={() => handlePropertyType(pt.id)}
-                  className={`w-full text-left px-5 py-5 rounded-2xl border-2 transition-all flex items-center gap-4 ${
-                    selected
-                      ? "border-teal-600 bg-teal-50"
-                      : "border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50"
-                  }`}
-                >
-                  <span className="text-2xl shrink-0">{pt.icon}</span>
-                  <div className="min-w-0">
-                    <p className={`font-semibold text-sm ${selected ? "text-teal-800" : "text-gray-900"}`}>
-                      {pt.label}
-                    </p>
-                    <p className="text-xs text-gray-500 mt-0.5">{pt.description}</p>
-                  </div>
-                  {selected && <span className="ml-auto text-teal-600 font-bold text-lg shrink-0">✓</span>}
-                </button>
-              );
-            })}
+            {(() => {
+              const disabled = disabledPropertyTypes(filters.intents);
+              return propertyTypes.map((pt) => {
+                const disabledReason = disabled[pt.id];
+                const selected = filters.propertyType === pt.id;
+                return (
+                  <button
+                    key={pt.id}
+                    onClick={() => !disabledReason && handlePropertyType(pt.id)}
+                    disabled={!!disabledReason}
+                    className={`w-full text-left px-5 py-5 rounded-2xl border-2 transition-all flex items-center gap-4 ${
+                      disabledReason
+                        ? "border-gray-100 bg-gray-50 opacity-40 cursor-not-allowed"
+                        : selected
+                        ? "border-teal-600 bg-teal-50"
+                        : "border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50"
+                    }`}
+                  >
+                    <span className="text-2xl shrink-0">{pt.icon}</span>
+                    <div className="min-w-0 flex-1">
+                      <p className={`font-semibold text-sm ${selected ? "text-teal-800" : "text-gray-900"}`}>
+                        {pt.label}
+                      </p>
+                      <p className="text-xs text-gray-500 mt-0.5">
+                        {disabledReason ?? pt.description}
+                      </p>
+                    </div>
+                    {selected && <span className="ml-auto text-teal-600 font-bold text-lg shrink-0">✓</span>}
+                  </button>
+                );
+              });
+            })()}
           </div>
         </div>
       )}
