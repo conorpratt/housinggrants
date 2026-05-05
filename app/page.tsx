@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { UserCheck, SlidersHorizontal, Banknote } from "lucide-react";
 import GrantCard from "@/components/GrantCard";
@@ -30,14 +29,10 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden min-h-[520px] flex items-center">
-        <Image
-          src="/images/hero.jpg"
-          alt="Modern Irish home"
-          fill
-          className="object-cover object-center"
-          priority
-        />
+      <section
+        className="relative overflow-hidden min-h-[520px] flex items-center"
+        style={{ backgroundImage: "url('/images/hero.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-teal-950/90 via-teal-900/80 to-teal-700/60" />
         <div className="relative z-10 w-full max-w-3xl mx-auto text-center py-28 sm:py-36 px-4 text-white">
           <p className="text-teal-300 text-xs font-semibold uppercase tracking-widest mb-4">
