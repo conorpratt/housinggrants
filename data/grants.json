@@ -113,7 +113,7 @@
     "tags": ["vacant", "derelict", "renovation", "local authority"]
   },
   {
-    "id": "croi-conaithе-cities",
+    "id": "croi-conaithe-cities",
     "name": "Croí Cónaithe (Cities) Scheme",
     "provider": "Department of Housing",
     "category": ["buy", "renovate", "vacant"],
@@ -129,8 +129,8 @@
       "Grant paid on completion of works",
       "Must apply through your local authority"
     ],
-    "applicationUrl": "https://www.gov.ie/en/publication/f6793-croi-conaithе-cities-scheme/",
-    "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/local-authority-housing-grants-and-supports/croi-conaithе-cities-scheme/",
+    "applicationUrl": "https://www.gov.ie/en/publication/f6793-croi-conaithe-cities-scheme/",
+    "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/local-authority-housing-grants-and-supports/croi-conaithe-cities-scheme/",
     "isActive": true,
     "lastVerified": "2025-01-01",
     "tags": ["vacant", "cities", "renovation", "urban"]
