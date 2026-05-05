@@ -22,11 +22,6 @@ const buyerTypes: { id: BuyerType; label: string; description: string }[] = [
     label: "Existing homeowner",
     description: "I already own and live in a home",
   },
-  {
-    id: "landlord",
-    label: "Landlord / investor",
-    description: "I own a property I rent out or plan to",
-  },
 ];
 
 const propertyTypes: { id: PropertyType; label: string }[] = [
