@@ -65,7 +65,7 @@ export default function HomePage() {
             <p className="text-xs text-gray-500 mt-0.5">grants tracked</p>
           </div>
           <div className="px-4">
-            <p className="text-2xl font-extrabold text-gray-900">2025</p>
+            <p className="text-2xl font-extrabold text-gray-900">May 2026</p>
             <p className="text-xs text-gray-500 mt-0.5">last updated</p>
           </div>
           <div className="px-4">

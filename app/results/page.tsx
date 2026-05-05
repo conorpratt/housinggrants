@@ -1,5 +1,5 @@
 import Link from "next/link";
-import GrantCard from "@/components/GrantCard";
+import GrantCalculator from "@/components/GrantCalculator";
 import grantsData from "@/data/grants.json";
 import { filterGrants, parseFiltersFromParams, buildResultsUrl } from "@/lib/filterGrants";
 import type { Grant } from "@/lib/types";
@@ -169,11 +169,7 @@ export default async function ResultsPage({ searchParams }: ResultsPageProps) {
           )
         ) : (
           <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {results.map((grant) => (
-                <GrantCard key={grant.id} grant={grant} />
-              ))}
-            </div>
+            <GrantCalculator grants={results} />
 
             <div className="mt-10 p-4 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-800">
               <strong>Tip:</strong> These results are based on your answers.
