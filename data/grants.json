@@ -18,7 +18,7 @@
     "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/better-energy-homes-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["energy", "retrofit", "SEAI", "insulation"]
   },
   {
@@ -40,7 +40,7 @@
     "applicationUrl": "https://www.seai.ie/grants/home-energy-grants/one-stop-shop/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/better-energy-homes-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["energy", "retrofit", "SEAI", "managed service"]
   },
   {
@@ -63,7 +63,7 @@
     "applicationUrl": "https://www.revenue.ie/en/property/help-to-buy-incentive/index.aspx",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/owning-a-home/help-with-buying-a-home/help-to-buy-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["first-time buyer", "new build", "tax rebate", "Revenue"]
   },
   {
@@ -86,7 +86,7 @@
     "applicationUrl": "https://www.firsthomescheme.ie/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/owning-a-home/help-with-buying-a-home/first-home-scheme/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["first-time buyer", "new build", "shared equity", "mortgage"]
   },
   {
@@ -246,7 +246,7 @@
     "applicationUrl": "https://localauthorityhomeloan.ie/",
     "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/owning-a-home/help-with-buying-a-home/local-authority-mortgages/",
     "isActive": true,
-    "lastVerified": "2025-01-01",
+    "lastVerified": "2026-05-01",
     "tags": ["mortgage", "first-time buyer", "local authority", "low rate"]
   },
   {
@@ -271,5 +271,75 @@
     "isActive": true,
     "lastVerified": "2026-05-01",
     "tags": ["mortgage", "renovation", "vacant", "derelict", "local authority"]
+  },
+  {
+    "id": "mortgage-interest-relief",
+    "name": "Mortgage Interest Relief",
+    "provider": "Revenue Commissioners",
+    "category": ["buy"],
+    "eligibleBuyerType": ["existing-homeowner"],
+    "eligiblePropertyType": [],
+    "maxValue": 1250,
+    "valueSummary": "Up to €1,250 (single) or €2,500 (jointly assessed) per tax year — 20% of your interest increase vs 2022",
+    "description": "A temporary tax relief for homeowners whose mortgage interest payments rose above their 2022 level. You claim 20% of the increase back through your annual tax return. Introduced in Budget 2024 and extended in Budget 2025 to cover the 2024 tax year.",
+    "keyRequirements": [
+      "Mortgage must have been on your principal private residence on 31 December 2022",
+      "Mortgage balance must have been between €80,000 and €500,000 at end of 2022",
+      "Relief is 20% of the increase in interest paid versus 2022 — you must have paid more interest",
+      "Claim via your annual tax return or through myAccount on Revenue.ie",
+      "Covers tax years 2023 and 2024"
+    ],
+    "applicationUrl": "https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/property/mortgage-interest-relief/index.aspx",
+    "moreInfoUrl": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/mortgage-interest-tax-relief/",
+    "isActive": true,
+    "lastVerified": "2026-05-01",
+    "tags": ["mortgage", "tax relief", "Revenue", "interest"]
+  },
+  {
+    "id": "seai-sustainable-energy-communities",
+    "name": "Sustainable Energy Communities",
+    "provider": "SEAI",
+    "category": ["retrofit", "insulation", "solar", "heat-pump"],
+    "eligibleBuyerType": ["existing-homeowner"],
+    "eligiblePropertyType": ["second-hand", "vacant"],
+    "maxValue": 0,
+    "valueSummary": "Free programme — SEAI funds community energy planning and gives members collective buying power for upgrades",
+    "description": "A community-based programme where groups of homes, businesses and public buildings plan and deliver energy improvements together. SEAI funds the community group's planning and coordination costs. Individual members still apply for their own SEAI home energy grants but benefit from bulk pricing and shared project management. Over 600 active communities across Ireland.",
+    "keyRequirements": [
+      "Join or form a Sustainable Energy Community group registered with SEAI",
+      "Community group must include at least one residential and one community or public building",
+      "SEAI provides grant funding to the group for coordination and project development",
+      "Individual homeowners apply separately for their own SEAI home energy grants",
+      "Search for a community near you at seai.ie/community-energy"
+    ],
+    "applicationUrl": "https://www.seai.ie/community-energy/sustainable-energy-communities/",
+    "moreInfoUrl": "https://www.seai.ie/community-energy/sustainable-energy-communities/",
+    "isActive": true,
+    "lastVerified": "2026-05-01",
+    "tags": ["community", "SEAI", "energy", "retrofit", "collective"]
+  },
+  {
+    "id": "housing-adaptation-grant",
+    "name": "Housing Adaptation Grant",
+    "provider": "Local Authorities",
+    "category": ["renovate"],
+    "eligibleBuyerType": ["existing-homeowner"],
+    "eligiblePropertyType": ["second-hand", "vacant"],
+    "maxValue": 30000,
+    "valueSummary": "Up to €30,000 (means tested) — typically covers 80–95% of approved costs",
+    "description": "A means-tested grant from your local council to adapt your home for a person with a disability or mobility issue. Covers works such as stairlifts, wet rooms, grab rails, access ramps, and structural adaptations. Available nationally but administered and funded by each local authority — availability and waiting times vary by county.",
+    "keyRequirements": [
+      "Applicant or a household member must have a disability or mobility issue",
+      "Property must be your principal private residence",
+      "Means tested — your household income determines the percentage covered",
+      "An occupational therapist assessment is usually required",
+      "Application made to your local authority — budgets and waiting lists vary by county",
+      "Works must not be started before the grant is approved"
+    ],
+    "applicationUrl": "https://www.gov.ie/en/service/4c50d3-housing-adaptation-grant-for-people-with-a-disability/",
+    "moreInfoUrl": "https://www.citizensinformation.ie/en/housing/housing-grants-and-schemes/grants-for-home-renovations-and-improvements/housing-adaptation-grant-for-people-with-disability/",
+    "isActive": true,
+    "lastVerified": "2026-05-01",
+    "tags": ["disability", "adaptation", "local authority", "means tested"]
   }
 ]
